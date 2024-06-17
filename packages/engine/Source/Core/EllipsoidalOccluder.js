@@ -471,7 +471,7 @@ function isScaledSpacePointVisible(
   cameraPositionInScaledSpace,
   distanceToLimbInScaledSpaceSquared
 ) {
-  // See https://cesium.com/blog/2013/04/25/Horizon-culling/
+  // See https://cesium.com/blog/2013/04/25/horizon-culling/
   const cv = cameraPositionInScaledSpace;
   const vhMagnitudeSquared = distanceToLimbInScaledSpaceSquared;
   const vt = Cartesian3.subtract(
